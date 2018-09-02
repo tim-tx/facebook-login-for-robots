@@ -75,7 +75,8 @@
     "test": "npm run clean && npm run lint && npm run jest",
     "compile": "npm run clean && npm run babel",
     "commit": "./node_modules/.bin/commit-wizard",
-    "prepublish": "npm run compile"
+    "prepublish": "npm run compile",
+    "prepare": "npm run compile"
   },
   "release": {
     "analyzeCommits": "simple-commit-message"
